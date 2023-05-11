@@ -1,10 +1,11 @@
 import Image from "next/image";
+import logo from "./assets/logo.svg";
 
 export default function Home() {
   return (
     <div className="flex h-screen bg-white">
       <div className="w-screen h-screen flex flex-col justify-center items-center">
-        <Image height={390} width={488} src="/logo.png" alt="Viszual" />
+        <Image height={390} width={488} src={logo} alt="Viszual" />
         <div className="flex space-x-3">
           <a
             href="https://github.com/rvanrees/viszual"
