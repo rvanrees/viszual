@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Viszual",
-  description: "Lorem ipsum",
+  description: "Coding the future.",
 };
 
 export default function RootLayout({

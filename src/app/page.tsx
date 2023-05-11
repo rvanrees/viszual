@@ -8,7 +8,7 @@ export default function Home() {
         <Image height={390} width={488} src={logo} alt="Viszual" />
         <div className="flex space-x-3">
           <a
-            href="https://github.com/rvanrees/viszual"
+            href="https://github.com/viszual"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-asphalt transition-all"
