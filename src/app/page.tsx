@@ -2,13 +2,14 @@
 
 import Image from "next/image";
 import logo from "./assets/logo_trans.png";
+import { Footer } from "./components/Footers";
 
 export default function Home() {
   return (
     <div className="h-screen bg-gradient-to-br from-white to-gray-100">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
-          className="flex items-center justify-between p-6 lg:px-8"
+          className="flex items-center justify-between p-6"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
@@ -29,7 +30,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate pt-0 lg:pt-8 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
           <div className="flex items-center justify-center ">
             <Image
@@ -43,13 +44,15 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
             Coding the{" "}
             <span className="rounded-md bg-indigo text-white p-1 px-4 hover:bg-pacific transition">
-              future
-            </span>
+              <a href="https://en.wikipedia.org/wiki/Future" target="_blank">
+                future
+              </a>
+            </span>{" "}
+            .
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            Anim aute id magna aliqua ad ad non deserunt sunt, qui irure qui
+            lorem.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
@@ -67,6 +70,7 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
