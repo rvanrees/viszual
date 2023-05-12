@@ -31,7 +31,7 @@ export default function Home() {
       </header>
 
       <div className="relative isolate pt-0 lg:pt-8 lg:px-8">
-        <div className="mx-auto max-w-2xl py-32 sm:py-32 lg:py-56 text-center">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:py-56 text-center">
           <div className="flex items-center justify-center ">
             <Image
               width={250}
