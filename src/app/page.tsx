@@ -33,8 +33,8 @@ export default function Home() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
           <div className="flex items-center justify-center ">
             <Image
-              width={300}
-              height={300}
+              width={250}
+              height={250}
               src={logo}
               alt="Viszual"
               className="p-8 mb-8"
