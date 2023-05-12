@@ -50,11 +50,7 @@ export default function Home() {
             </span>{" "}
             .
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt, qui irure qui
-            lorem.
-          </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          <div className="mt-16 flex items-center justify-center gap-x-6">
             <a
               href="mailto:mail@viszual.io"
               className="rounded-md bg-pacific px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo transition"
