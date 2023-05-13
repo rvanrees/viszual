@@ -6,7 +6,7 @@ import { Footer } from "./components/Footers";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gradient-to-br from-white to-gray-100">
+    <div className="h-screen">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6"
@@ -31,7 +31,7 @@ export default function Home() {
       </header>
 
       <div className="relative isolate pt-0 lg:pt-8 lg:px-8">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:py-56 text-center">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:py-32 text-center">
           <div className="flex items-center justify-center ">
             <Image
               width={250}
