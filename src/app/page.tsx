@@ -9,7 +9,7 @@ export default function Home() {
     <div className="h-screen">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
-          className="flex items-center justify-between p-6"
+          className="flex items-center justify-between py-4 px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
@@ -31,14 +31,14 @@ export default function Home() {
       </header>
 
       <div className="relative isolate pt-0 lg:pt-8 lg:px-8">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:py-32 text-center">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:py-32 xl:40 text-center">
           <div className="flex items-center justify-center ">
             <Image
               width={250}
               height={250}
               src={logo}
               alt="Viszual"
-              className="p-8 mb-8"
+              className="mb-8"
             />
           </div>
           <h1 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
