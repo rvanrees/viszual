@@ -6,7 +6,7 @@ import { Footer } from "./components/Footers";
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div className="h-screen bg-gradient-to-br from-white to-gray-100">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between py-4 px-8"
