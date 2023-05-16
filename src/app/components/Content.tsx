@@ -1,19 +1,16 @@
 import Image from "next/image";
 import logo from "../assets/logo_trans.png";
 
+import Lottie from "lottie-react";
+import animation from "../assets/test.json";
+
 export function Content() {
   return (
     <div className="flex flex-col items-center justify-center text-center">
-      <Image
-        width={250}
-        height={250}
-        src={logo}
-        alt="Viszual"
-        className="p-8 mb-8"
-      />
+      <Lottie animationData={animation} />;
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
         Coding the{" "}
-        <span className="rounded-md bg-indigo text-white pb-2 px-4 hover:bg-pacific transition">
+        <span className="rounded-md bg-indigo text-white py-2 px-4 hover:bg-pacific transition">
           <a href="https://en.wikipedia.org/wiki/Future" target="_blank">
             future
           </a>
