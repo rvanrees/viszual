@@ -1,10 +1,6 @@
-import Lottie from "lottie-react";
-import animation from "../assets/test.json";
-
 export function Content() {
   return (
     <div className="flex flex-col items-center justify-center text-center">
-      <Lottie className="mb-8 w-96y" animationData={animation} />
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
         Coding the{" "}
         <span className="rounded-md bg-indigo text-white py-2 px-4 hover:bg-pacific transition">
